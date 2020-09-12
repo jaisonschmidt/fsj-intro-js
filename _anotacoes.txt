@@ -1,0 +1,77 @@
+Dia 12/09
+=================================================================================
+Projeto criado no dia 12/09 - https://github.com/jaisonschmidt/fsj-intro-js 
+
+Ferramentas:
+        --> https://code.visualstudio.com
+        --> https://nodejs.org/en/
+	--> https://github.com/nvm-sh/nvm
+	--> https://jsonplaceholder.typicode.com/albums
+	--> ASDF
+	--> https://git-scm.com/
+		--> configuração inicial do GIT: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
+
+                         (git config --global user.name "Neimar"
+                          git config --global user.email chuleta@gmail.com)
+
+
+	--> yarnpkg.com
+
+	--> Documentação do NPM: https://docs.npmjs.com/
+
+
+  > npm init
+  > npm install --save bootstrap
+
+> https://www.udemy.com/course/git-e-github-para-iniciantes/
+
+--> https://webpack.js.org/guides/getting-started/
+--> npm install webpack webpack-cli --save-dev
+
+-- Loaders: 
+--- https://webpack.js.org/concepts/loaders/
+--- https://webpack.js.org/loaders/css-loader/
+--- https://webpack.js.org/loaders/style-loader/
+
+---> npm install --save-dev css-loader style-loader
+
+webpack.config.js 
+
+const path = require("path");
+
+module.exports = {
+  entry: "./src/index.js",
+  mode: "development",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist/"),
+    compress: true,
+    watchContentBase: true,
+    port: 9001,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+};
+
+
+Documentação de Módulos:
+-- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/M%C3%B3dulos
+
+Dica de Livro:
+-- https://eloquentjavascript.net/  (https://braziljs.github.io/eloquente-javascript/)
+
+
+Cursos Flexbox
+- https://flexobox.i/
+- https://flexboxfroggy.com/ - joguinho
+
+=============================================================================
