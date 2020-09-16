@@ -1,5 +1,29 @@
-Dia 12/09
-=================================================================================
+Anotações dia 15/09
+
+Repo GitHub https://github.com/jaisonschmidt/fsj-intro-js 
+
+- Arrow Function: https://developer.mozilla.org/pt-BR/docs/Web/Java/Reference/Functions/Arrow_functions
+- Fetch: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch
+- Destructuring - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao
+- Template string - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings
+- Rest parameter - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/rest_parameters
+- Spread - https://www.luiztools.com.br/post/4-segredos-do-operador-spread-em-javascript/?gclid=CjwKCAjwnef6BRAgEiwAgv8mQaXUaQULDKrqfhZ0bnNRl9-Yt_QxBBwwS4_eK_NvVg30aUv8yYYDRxoCv_QQAvD_BwE
+
+- https://github.com/getify/You-Dont-Know-JS
+
+Escrita de CSS: 
+- https://rscss.io/index.html
+- http://getbem.com/
+
+
+https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript
+
+https://babeljs.io/
+
+==================================================================================================
+
+Anotações dia 12/09
+
 Projeto criado no dia 12/09 - https://github.com/jaisonschmidt/fsj-intro-js 
 
 Ferramentas:
@@ -63,15 +87,16 @@ module.exports = {
 };
 
 
+> npm install --save-dev style-loader
+
+
 Documentação de Módulos:
--- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/M%C3%B3dulos
+-- https://developer.mozilla.org/pt-BR/docs/Web/Java/Guide/M%C3%B3dulos
 
 Dica de Livro:
--- https://eloquentjavascript.net/  (https://braziljs.github.io/eloquente-javascript/)
+-- https://eloquentjava.net/  (https://braziljs.github.io/eloquente-java/)
 
 
 Cursos Flexbox
 - https://flexobox.i/
 - https://flexboxfroggy.com/ - joguinho
-
-=============================================================================
